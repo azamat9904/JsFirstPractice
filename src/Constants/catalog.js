@@ -1,0 +1,38 @@
+const CATALOG = [
+    {
+        id:'el1',
+        name:'Alhambra 7.800 Open Pore Z-Nature Гитара классическая с нейлоновыми струнами.',
+        img:'build/img/catalog/1.jpg',
+        price:2500
+    },
+     {
+        id:'el2',
+        name:'Alhambra 7.830 Open Pore 3OP Классическая гитара.',
+        img:'build/img/catalog/2.jpg',
+        price:3900
+    },
+     {
+        id:'el3',
+        name:'Alhambra 8.000 Open Pore Z-Nature CW EZ Гитара классическая со звукоснимателем.',
+        img:'build/img/catalog/3.jpg',
+        price:48755
+    },
+    {
+        id:'el4',
+        name:'Alhambra 802-1C Classical Student Гитара классическая с нейлоновыми струнами.',
+        img:'build/img/catalog/4.jpg',
+        price:244900
+    },
+    {
+        id:'el5',
+        name:'Alhambra 807-4P Classical Conservatory 4P Гитара классическая с нейлоновыми струнами.',
+        img:'build/img/catalog/5.jpg',
+        price:45000
+    },
+    {
+        id:'el6',
+        name:'Alhambra 802-1C Classical Student Гитара классическая с нейлоновыми струнами.',
+        img:'build/img/catalog/4.jpg',
+        price:36900
+    }
+]
