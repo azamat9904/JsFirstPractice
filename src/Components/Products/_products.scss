@@ -1,0 +1,48 @@
+@use "../../Constants/variables";
+
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:45px;
+    width: 80%;
+    max-width:1290px;
+    margin:$largeSpace auto;
+}
+.product-element{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    padding: 25px 20px;
+    background-color: $white;
+    box-shadow: $boxShadow;
+    border-radius: $borderRadius;
+    &__name{
+        margin-bottom:auto;
+        font-weight: 700;
+    }
+    &__img{
+        width: 100%;
+        height: 270px;
+        object-fit:contain;
+        margin-top: $mediumSpace;
+    }
+    &__price{
+        margin-top: $mediumSpace;
+        color:$colorUnaccent;
+    }
+    &__btn{
+        margin-top: $mediumSpace;
+        padding: $smallSpace $mediumSpace;
+        border:1px solid $colorUnaccent;
+        border-radius: $borderRadius;
+        cursor: pointer;
+        outline: none;
+        background: none;
+        font-size: inherit;
+        font-family: inherit;
+        &_active{
+           border:1px solid transparent; 
+//           background-color: $linearGradient;
+        }
+    }
+}

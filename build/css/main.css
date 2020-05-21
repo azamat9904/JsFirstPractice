@@ -1,3 +1,50 @@
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 45px;
+  width: 80%;
+  max-width: 1290px;
+  margin: 30px auto;
+}
+
+.product-element {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 25px 20px;
+  background-color: #fff;
+  box-shadow: 0 16px 24px 2px rgba(33, 37, 41, 0.02), 0 6px 30px 5px rgba(33, 37, 41, 0.04), 0 8px 10px -5px rgba(33, 37, 41, 0.01);
+  border-radius: 3px;
+}
+.product-element__name {
+  margin-bottom: auto;
+  font-weight: 700;
+}
+.product-element__img {
+  width: 100%;
+  height: 270px;
+  object-fit: contain;
+  margin-top: 15px;
+}
+.product-element__price {
+  margin-top: 15px;
+  color: #808080;
+}
+.product-element__btn {
+  margin-top: 15px;
+  padding: 10px 15px;
+  border: 1px solid #808080;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  background: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+.product-element__btn_active {
+  border: 1px solid transparent;
+}
+
 /*! normalize.scss v0.1.0 | MIT License | based on git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
