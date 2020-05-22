@@ -40,9 +40,13 @@
         background: none;
         font-size: inherit;
         font-family: inherit;
+        transition: .2s background linear;
         &_active{
            border:1px solid transparent; 
-//           background-color: $linearGradient;
+           background: $linearGradient;
+        }
+        &:hover{
+            background-color: $hover;
         }
     }
 }
