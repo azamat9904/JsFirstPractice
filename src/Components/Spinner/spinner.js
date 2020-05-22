@@ -13,3 +13,4 @@ class Spinner{
 }
 
 const spinner = new Spinner();
+spinner.render();
