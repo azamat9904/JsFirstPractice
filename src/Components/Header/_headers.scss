@@ -1,1 +1,15 @@
 @import '../../Constants/variables.scss';
+
+.header-container{
+    display: flex;
+    height: 50px;
+    padding: $smallSpace;
+    background-color:$colorMedium;
+    box-sizing: border-box;
+}
+.header-counter{
+    margin-left: auto;
+    padding-right: $mediumSpace;
+    cursor: pointer;
+    font-weight: 700;
+}
