@@ -4,3 +4,7 @@
 // @prepros-append Components/Header/header.js
 // @prepros-append Components/Products/products.js
 // @prepros-append Components/Shopping/shopping.js
+
+::-webkit-scrollbar{
+    
+}
