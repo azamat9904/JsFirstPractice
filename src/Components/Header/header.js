@@ -12,5 +12,4 @@ class Header{
     }
 }
 const header = new Header();
-const productsStore = localStorageUtil.getProducts();
-header.render(productsStore.length);
+

@@ -46,4 +46,3 @@ class Products{
     }
 }
 const products = new Products();
-products.render();
